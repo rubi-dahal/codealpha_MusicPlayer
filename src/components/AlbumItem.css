@@ -1,0 +1,31 @@
+.album-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #696868;
+    border-radius: 10px;
+    background-color: rgba(77, 77, 77, 0.2);
+    width: 200px;
+}
+.album-item p{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 0.9rem;
+    color: #f4f1f1;
+    margin-top: 5px;
+ width: 100%;
+}
+.album-item h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.2rem;
+    
+    color: #f4f1f1;
+    margin-top: 5px ;
+
+    text-align: center;
+    width: 100%;
+}
+.album-item:hover{
+    transform: scale(1.01)
+
+}

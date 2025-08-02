@@ -1,0 +1,118 @@
+.display-album{
+    width: calc(100% - 320px);
+    margin-left:320px;
+    padding: 20px;
+    height: 100vh;
+    position: relative;
+}
+.display-album h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.main-img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.album-info h2 {
+    font-size: 2.7rem;
+      background: linear-gradient(90deg, #743397, #de6fbe); /* change colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    font-weight: bold;
+
+    color: #e7e3e3;
+}
+.album-container {
+    display: flex;
+    justify-content:start;
+    gap: 40px;
+}
+.album-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.album-info h5{
+    font-size: 1.2rem;
+    margin-top: -5px;
+    color: #a7a7a7;
+    font-weight: 400;
+    margin: 5px 0;
+    
+}
+.album-info h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #e7e3e3;
+}
+.immg{
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+.close{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.album-header {
+    display:flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.album-header h1 {
+    font-size: 2.5rem;
+    color: #e7e3e3;
+    margin-left: 20px;
+}
+.album-header img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.album-header p {
+    font-size: 1.2rem;
+    color: #a7a7a7;
+    text-align: start;
+}
+.album-header b {
+    font-size: 1.4rem;
+    color: #a7a7a7;
+    margin-right: 40px;
+}
+.song {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+
+}
+.song:hover {
+    background-color: #646060;
+}
+.song img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 15px;
+    display: inline;
+
+}
+.song p{
+    font-size: 1.2rem;
+    color: #e7e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
