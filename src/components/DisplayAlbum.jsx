@@ -36,9 +36,8 @@ const DisplayAlbum = () => {
         </p>
         <p>Album</p>
         <p>Date Added</p>
-        <p>
-          <img src={assets.clock_icon} alt="" />
-        </p>
+
+        <img src={assets.clock_icon} alt="" />
       </div>
       <hr />
       {songsData.map((song, index) => (
@@ -54,7 +53,7 @@ const DisplayAlbum = () => {
           </p>
           <p>{albumData.name}</p>
           <p> 5 Days ago...</p>
-          <p>{song.duration}</p>
+          <h5>{song.duration}</h5>
         </div>
       ))}
     </div>

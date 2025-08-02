@@ -246,3 +246,45 @@ span{
     background-color: rgba(126, 119, 119, 0.1);
     transition: background-color 0.3s ease;
 }
+@media screen and (max-width: 1000px) {
+    .sidebar {
+        width: 200px;
+        padding: 10px;
+        padding-top: 25px;
+    }
+    .main-part {
+        width: calc(100% - 210px);
+        margin-left: 210px;
+    }
+    .search {
+        width: 70%;
+    }
+    .nav p {
+        font-size: 0.9rem;
+    }
+    .play p {
+        font-size: 0.9rem;
+    }
+    .main h1 {
+        font-size: 2.3rem;
+    }
+    .logo1{
+    
+    width: 35px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+    .log{
+        margin-bottom: 20px;
+    }
+    .log p{
+        font-size: 1.9rem;
+
+    }
+    .down h2{
+    font-size: 1.8rem;
+    margin-left: -5px;
+}
+    
+}

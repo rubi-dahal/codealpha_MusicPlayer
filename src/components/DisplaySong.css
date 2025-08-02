@@ -137,3 +137,35 @@
     outline: none;
     margin: 0 10px;
 }
+@media screen and (max-width: 1000px) {
+    .song-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .song-controls img {
+        width: 20px;
+        height: 20px;
+    }
+    .song-icons img {
+        width: 20px;
+        height: 20px;
+    }
+    .close {
+        width: 20px;
+        height: 20px;
+    }
+    .display-song-container .song-item-container  h1 {
+    font-size: 2rem;
+    
+    }
+    .display-song{
+        width: calc(100% - 210px);
+        margin-left: 210px;
+        margin-top: 20px;
+    }
+
+    .display-song-container .song-item-container p {
+        font-size: 1rem;
+
+    }
+}
