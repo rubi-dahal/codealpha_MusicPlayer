@@ -1,6 +1,6 @@
 import React from "react";
 import HomePage from "./HomePage";
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 import Search from "./Search";
 import "../components/DisplayAlbum.css";
 import { useNavigate, useParams } from "react-router-dom";

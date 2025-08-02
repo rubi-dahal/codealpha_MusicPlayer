@@ -3,7 +3,7 @@ import Search from "./Search";
 import SongItem from "./SongItem";
 import { useNavigate, useParams } from "react-router-dom";
 import { assets, songsData } from "../assets/assets";
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 import "./DisplaySong.css";
 
 const Displaysong = () => {

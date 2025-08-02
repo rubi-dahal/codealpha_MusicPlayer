@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/HomePage.css";
 import Display from "./Display";
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 import Search from "./Search";
 
 const HomePage = () => {
