@@ -2,6 +2,7 @@ import React from "react";
 import { assets } from "../assets/assets";
 import "../components/HomePage.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -18,10 +19,10 @@ const Sidebar = () => {
         </div>
         <div className="line"></div>
         <div className="nav active">
-          <a href="/home">
+          <Link to="/home">
             <img src={assets.home_icon} alt="" />
             <p>Home</p>
-          </a>
+          </Link>
         </div>
         <div className="nav">
           <img src={assets.search_icon} alt="" />
